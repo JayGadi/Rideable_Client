@@ -14,14 +14,14 @@ How to use app:<br />
 1. Start tomcat server<br />
 2. Start emulator/or put app onto a physical android device (Within Android Studio project, change IP under types to match that of your server IP address)<br />
 3. Slide app to signup or login mode. <br/>
-..* **Sign Up**<br />
-..1. To Sign up Enter First Name and Last Name <br />
-..2. Add a valid email address <br />
-..3. Enter a password with a minimum of 8 characters<br />
-..4. Confirm the password<br />
-..5. Select "Sign Up"<br />
-..6. Slide tab to "Login" and enter credentials<br />
+  * **Sign Up**<br />
+  1. To Sign up Enter First Name and Last Name <br />
+  2. Add a valid email address <br />
+  3. Enter a password with a minimum of 8 characters<br />
+  4. Confirm the password<br />
+  5. Select "Sign Up"<br />
+  6. Slide tab to "Login" and enter credentials<br />
 
-..* **Login**<br />
-..1. To login, enter valid user credentials and select "Login"<br />
+  * **Login**<br />
+  1. To login, enter valid user credentials and select "Login"<br />
 
