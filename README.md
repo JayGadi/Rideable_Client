@@ -23,7 +23,7 @@ How to use app:<br />
   6. Slide tab to "Login" and enter credentials<br />
 **Login**<br />
   1. To login, enter valid user credentials and select "Login"<br />
- 4. When Logged in, User can post a ride, find a ride, or chat with ride you are currently accepted to:
+ 4. When Logged in, User can post a ride, find a ride, or chat with ride you are currently accepted to:<br />
  **Post a ride**<br />
   1. Slide navigation drawer open and select "Post Ride"<br />
   2. Enter in Departure City/Arrival City (Using google location services), departure date, departure time, number of passengers and a price <br />
