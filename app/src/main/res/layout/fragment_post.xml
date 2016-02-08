@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context="com.rideable.control.PostFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_location_label"
+        android:text="Departure Location"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_location"
+        android:textColor="@color/textColorPrimary"
+        android:background="#111"
+        android:hint="Enter Departure Location"
+        android:textColorHint="#ABABAB"
+        android:layout_below="@+id/departure_location_label"
+        android:drawableLeft="@drawable/ic_depart"
+        android:paddingLeft="15dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_travel"
+        android:background="@drawable/ic_travel"
+        android:layout_below="@+id/departure_location"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrival_location_label"
+        android:text="Arrival Location"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/ic_travel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrival_location"
+        android:textColor="@color/textColorPrimary"
+        android:background="#111"
+        android:hint="Enter Arrival Location"
+        android:textColorHint="#ABABAB"
+        android:layout_below="@+id/arrival_location_label"
+        android:drawableLeft="@drawable/ic_marker"
+        android:paddingLeft="15dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_calendar"
+        android:background="@drawable/ic_calendar"
+        android:layout_below="@+id/arrival_location"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_date_label"
+        android:layout_toRightOf="@+id/ic_calendar"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/arrival_location"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Departure Date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_date"
+        android:layout_alignRight="@+id/departure_date_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/arrival_location"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mon 07.12"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_time"
+        android:background="@drawable/ic_time"
+        android:layout_below="@+id/departure_date_label"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_time_label"
+        android:layout_toRightOf="@+id/ic_time"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/departure_date_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Departure Time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_time"
+        android:layout_alignRight="@+id/departure_time_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/departure_date_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="09:00"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_passengers"
+        android:background="@drawable/ic_passengers"
+        android:layout_below="@+id/departure_time_label"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passengers_label"
+        android:layout_toRightOf="@+id/ic_passengers"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/departure_time_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Passengers"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passengers"
+        android:layout_alignRight="@+id/passengers_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/departure_time_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_price"
+        android:background="@drawable/ic_price"
+        android:layout_below="@+id/passengers_label"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price_label"
+        android:layout_toRightOf="@+id/ic_price"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/passengers_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:layout_alignRight="@+id/price_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/passengers_label"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="$30.00"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_ride"
+        android:background="#111"
+        android:textColor="@color/textColorPrimary"
+        android:text="Post Ride"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

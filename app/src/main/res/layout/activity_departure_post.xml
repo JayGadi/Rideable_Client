@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rideable.control.PostActivity">
+
+    <include
+        android:id="@+id/options_toolbar"
+        layout="@layout/tool_bar"></include>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:layout_below="@+id/options_toolbar"
+        android:layout_above="@+id/set_location"
+        tools:context=".PostActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#111"
+        android:textColor="@color/textColorPrimary"
+        android:id="@+id/set_location"
+        android:onClick="setLocation"
+        android:text="Select Location"/>
+
+</RelativeLayout>

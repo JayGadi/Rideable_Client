@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context="com.rideable.control.FindActivity">
+
+    <include
+        android:id="@id/options_toolbar"
+        layout="@layout/tool_bar"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/options_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>
