@@ -1,8 +1,8 @@
 # Rideable Client
 
-## APP IS STILL UNDER CONSTRUCTION. THIS IS JUST a PROTOTYPE OF THE APP TO SHOW IT'S MAIN FEATURES##
+## APP IS STILL UNDER CONSTRUCTION. THIS IS JUST a PROTOTYPE OF THE APP TO SHOW IT'S MAIN FEATURES
 
-## SERVER MUST BE RUNNING BEFORE USER CAN SIGN UP OR LOGIN ## 
+## SERVER MUST BE RUNNING BEFORE USER CAN SIGN UP OR LOGIN
 
 This app is a rideshare app designed for users to post rideshares, and find rideshares. This is a passion project of mine, but also helped me learn how to utilize a RESTFUL api, how to encorporate a MySQL server into an app and use MySQL workbench, and how to use the Hibernate ORM. It also gave me a look into how to use location services and the GoogleMaps API and Google cloud messaging for use with push notifications.<br />
 
@@ -14,6 +14,7 @@ How to use app:<br />
 1. Start tomcat server<br />
 2. Start emulator/or put app onto a physical android device (Within Android Studio project, change IP under types.java to match that of your server IP address)<br />
 3. Slide app to signup or login mode. <br/>
+
 **Sign Up**<br />
   1. To Sign up Enter First Name and Last Name <br />
   2. Add a valid email address <br />
@@ -21,10 +22,13 @@ How to use app:<br />
   4. Confirm the password<br />
   5. Select "Sign Up"<br />
   6. Slide tab to "Login" and enter credentials<br />
+
 **Login**<br />
   1. To login, enter valid user credentials and select "Login"<br />
- 4. When Logged in, User can post a ride, find a ride, or chat with ride you are currently accepted to:<br />
- **Post a ride**<br />
+  
+4. When Logged in, User can post a ride, find a ride, or chat with ride you are currently accepted to:<br />
+
+**Post a ride**<br />
   1. Slide navigation drawer open and select "Post Ride"<br />
   2. Enter in Departure City/Arrival City (Using google location services), departure date, departure time, number of passengers and a price <br />
   3. Select "Post Ride" to post your ride <br />
